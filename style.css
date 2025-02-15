@@ -1,20 +1,66 @@
-/* Tag selector to select the 'body' element */
+/* ✅ Set the correct background color */
 body {
-  /* Your code here! */
+  font-family: Arial, sans-serif;
+  background-color: #00b3e6; 
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
 }
 
-/* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
+
 div {
-  /* Your code here! */
+  width: 700px;
+  margin: auto;
+  font-family: "Helvetica Neue", sans-serif;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* ID selector to select the element with id 'main-header' */
+
 #main-header {
-  /* Your code here! */
-  color: red;
+  font-size: 22px; 
+  font-weight: bold;
+  color: #0073e6;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-/* Class selector to select elements containing the class 'perspective-questions' */
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+
 .perspective-questions {
-  /* Your code here! */
+  font-style: italic;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+
+@media (max-width: 600px) {
+  div {
+    width: 90%;
+    padding: 20px;
+  }
+
+  #main-header {
+    font-size: 20px;
+  }
+  
+
+  p, .{
+    font-size: 14px;
+  
 }
